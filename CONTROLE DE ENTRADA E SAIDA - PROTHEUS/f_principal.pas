@@ -145,7 +145,7 @@ begin
                   frm_visitas.tab_principals.Refresh;
                end
                else
-                  ShowMessage('ESSA ENTRADA J¡ FOI REGISTRADA');
+                  ShowMessage('ESSA ENTRADA J√Å FOI REGISTRADA');
             end;
          end;
       end;
@@ -154,7 +154,7 @@ begin
          if InputQuery('Controle Entrada Saida','Digite Cod. Visita',varId) then begin
             if frm_visitas.tab_principals.Locate('R_E_C_N_O_',varId,[]) then begin
                if Trim(frm_visitas.tab_principals.FieldByName('PY_DATAE').AsString) = '' then
-                  ShowMessage('N√O FOI REGISTRADA A ENTRADA DESSA VISITA')
+                  ShowMessage('N√ÉO FOI REGISTRADA A ENTRADA DESSA VISITA')
                else begin
                   if Trim(frm_visitas.tab_principals.FieldByName('PY_DATAS').AsString) = '' then begin
                      varData := FormatDateTime('yyyymmdd',now());
@@ -256,7 +256,7 @@ begin
             QuotedStr(' ')+','+
             QuotedStr('111007')+','+
             QuotedStr(' ')+','+
-            QuotedStr('TOFFANO/TRANS RODOIN - CAMINH√O')+','+
+            QuotedStr('TOFFANO/TRANS RODOIN - CAMINH√ÉO')+','+
             QuotedStr(FormatDateTime('yyyymmdd',now()))+','+
             QuotedStr('        ')+','+
             QuotedStr('        ')+',0.0,'+
@@ -294,7 +294,7 @@ begin
       pubSFil := Ini.ReadString('PROTHEUS','Filial','');
       pubSFuc := Ini.ReadString('PROTHEUS','Funcao','');
    end;
-   sql_conecta.ConnectionString := 'DriverID=MSSQL;Server='+pubHost+';Database='+pubBD+';User_Name=sa;MetaDefSchema=dbo;MetaDefCatalog='+pubBD+';PassWord=TOFf@n02636;Initial Catalog=AdventureWorks;Integrated Security=SSPI;MultipleActiveResultSets=True;';
+   sql_conecta.ConnectionString := 'DriverID=MSSQL;Server='+pubHost+';Database='+pubBD+';User_Name=sa;MetaDefSchema=dbo;MetaDefCatalog='+pubBD+';PassWord=Senha;Initial Catalog=AdventureWorks;Integrated Security=SSPI;MultipleActiveResultSets=True;';
    sql_conecta.Connected := True;
 
    lblData.Caption := DateToStr(now());
