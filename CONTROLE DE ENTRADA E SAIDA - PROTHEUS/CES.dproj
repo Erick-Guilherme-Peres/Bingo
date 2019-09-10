@@ -1,0 +1,188 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{2093EC4A-8FAF-4B48-8161-0005DF9B1A5C}</ProjectGuid>
+        <ProjectVersion>18.2</ProjectVersion>
+        <FrameworkType>VCL</FrameworkType>
+        <MainSource>CES.dpr</MainSource>
+        <Base>True</Base>
+        <Config Condition="'$(Config)'==''">Release</Config>
+        <Platform Condition="'$(Platform)'==''">Win32</Platform>
+        <TargetedPlatforms>1</TargetedPlatforms>
+        <AppType>Application</AppType>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Base)'=='true') or '$(Base_Win32)'!=''">
+        <Base_Win32>true</Base_Win32>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Base)'=='true') or '$(Base_Win64)'!=''">
+        <Base_Win64>true</Base_Win64>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_1)'!=''">
+        <Cfg_1>true</Cfg_1>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_1)'=='true') or '$(Cfg_1_Win32)'!=''">
+        <Cfg_1_Win32>true</Cfg_1_Win32>
+        <CfgParent>Cfg_1</CfgParent>
+        <Cfg_1>true</Cfg_1>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_2)'!=''">
+        <Cfg_2>true</Cfg_2>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win32)'!=''">
+        <Cfg_2_Win32>true</Cfg_2_Win32>
+        <CfgParent>Cfg_2</CfgParent>
+        <Cfg_2>true</Cfg_2>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base)'!=''">
+        <SanitizedProjectName>CES</SanitizedProjectName>
+        <VCL_Custom_Styles>&quot;Iceberg Classico|VCLSTYLE|$(PUBLIC)\Documents\Embarcadero\Studio\14.0\Styles\IcebergClassico.vsf&quot;</VCL_Custom_Styles>
+        <Icon_MainIcon>$(BDS)\bin\delphi_PROJECTICON.ico</Icon_MainIcon>
+        <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;$(DCC_Namespace)</DCC_Namespace>
+        <DCC_DcuOutput>.\$(Platform)\$(Config)</DCC_DcuOutput>
+        <DCC_ExeOutput>.\$(Platform)\$(Config)</DCC_ExeOutput>
+        <DCC_E>false</DCC_E>
+        <DCC_N>false</DCC_N>
+        <DCC_S>false</DCC_S>
+        <DCC_F>false</DCC_F>
+        <DCC_K>false</DCC_K>
+        <Custom_Styles>&quot;Iceberg Classico|VCLSTYLE|$(BDSCOMMONDIR)\Styles\IcebergClassico.vsf&quot;</Custom_Styles>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win32)'!=''">
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <DCC_UsePackage>cxSchedulerTreeBrowserRS20;JvGlobus;frxADO20;frxe20;JvMM;cxGridRS20;dxFireDACServerModeRS20;JvManagedThreads;dxSkinOffice2007SilverRS20;dxPScxExtCommonRS20;dxPSdxLCLnkRS20;cxPageControlRS20;dxPSdxSpreadSheetLnkRS20;RtmRxCtl200;FireDACPgDriver;JvCrypt;dxSkinVisualStudio2013DarkRS20;DBXInterBaseDriver;DataSnapServer;DataSnapCommon;JvNet;Rave110VCL;dxSkinsdxBarPainterRS20;JvDotNetCtrls;dxSkinSharpRS20;DbxCommonDriver;dxLayoutControlRS20;vclimg;dxSkinSilverRS20;dxSkinsdxNavBarPainterRS20;dbxcds;DatasnapConnectorsFreePascal;JvXPCtrls;dxPSCoreRS20;dxSkinOffice2013LightGrayRS20;vcldb;dxPSTeeChartRS20;dxSkinOffice2013WhiteRS20;dxSkinMcSkinRS20;CustomIPTransport;dsnap;IndyIPServer;ACBr_MDFe;dxSkinCoffeeRS20;IndyCore;dxSkinGlassOceansRS20;dxSkinOffice2010SilverRS20;dxComnRS20;CloudService;dxFlowChartRS20;dxSkinOffice2013DarkGrayRS20;FmxTeeUI;FireDACIBDriver;dxDBXServerModeRS20;ACBr_NFe2;cxTreeListdxBarPopupMenuRS20;dxSkinOffice2007PinkRS20;ACBr_SAT;dxPsPrVwAdvRS20;JvDB;JvRuntimeDesign;dxSkiniMaginaryRS20;dxSkinSpringTimeRS20;dxSkinDevExpressDarkStyleRS20;dxSkinVisualStudio2013BlueRS20;cxSchedulerGridRS20;dxtrmdRS20;dxPScxGridLnkRS20;dsnapxml;fsIBX20;JclDeveloperTools;FireDACDb2Driver;dxSpreadSheetRS20;dxSkinMoneyTwinsRS20;dxSkinOffice2007GreenRS20;dxPScxTLLnkRS20;dxRichEditControlRS20;cxPivotGridOLAPRS20;ACBr_SEF2;dxPSdxFCLnkRS20;dxPSdxGaugeControlLnkRS20;bindcompfmx;ACBr_PAF;frx20;vcldbx;FireDACODBCDriver;RESTBackendComponents;dbrtl;FireDACCommon;bindcomp;inetdb;JvPluginSystem;dxSkinVisualStudio2013LightRS20;DBXOdbcDriver;JvCmp;vclFireDAC;JvTimeFramework;xmlrtl;ibxpress;dxSkinOffice2007BlackRS20;FireDACCommonDriver;bindengine;vclactnband;soaprtl;FMXTee;ACBrComum;synapse;bindcompvcl;dxGDIPlusRS20;Jcl;vclie;dxPSRichEditControlLnkRS20;cxVerticalGridRS20;dxRibbonCustomizationFormRS20;cxSchedulerRS20;ACBr_TEFD;dxSkinBlackRS20;ACBrNFeDanfeRV;FireDACMSSQLDriver;DBXInformixDriver;dxSkinSummer2008RS20;Intraweb;DataSnapServerMidas;dsnapcon;DBXFirebirdDriver;PCN2;inet;dxBarRS20;cxDataRS20;dxSkinDarkSideRS20;JvPascalInterpreter;FireDACMySQLDriver;soapmidas;vclx;dxPScxVGridLnkRS20;dxSkinLondonLiquidSkyRS20;dxCoreRS20;DBXSybaseASADriver;RESTComponents;dxPSPrVwRibbonRS20;dbexpress;dxPSLnksRS20;JvBDE;IndyIPClient;ACBr_Convenio115;dxBarExtItemsRS20;dxSpellCheckerRS20;frxcs20;RtmRxDB200;frxIBX20;dxdbtrRS20;FireDACSqliteDriver;FireDACDSDriver;ZComponent;DBXSqliteDriver;ACBrDiversos;ACBrTCP;cxSchedulerRibbonStyleEventEditorRS20;fmx;dxSkinVS2010RS20;JvDlgs;IndySystem;dxPScxPCProdRS20;TeeDB;tethering;dxSkinXmas2008BlueRS20;inetdbbde;vclib;DataSnapClient;dxTabbedMDIRS20;dxmdsRS20;DataSnapProviderClient;DBXSybaseASEDriver;dxdborRS20;dxPSdxDBTVLnkRS20;fsBDE20;MetropolisUILiveTile;dxSkinCaramelRS20;dxPScxSchedulerLnkRS20;dxSkinLiquidSkyRS20;dxSkinOffice2016DarkRS20;vcldsnap;dxGaugeControlRS20;dxSkinDevExpressStyleRS20;fmxFireDAC;cxPivotGridChartRS20;DBXDb2Driver;DBXOracleDriver;dxSkinOffice2010BlueRS20;JvCore;vclribbon;ACBr_SPED;dxServerModeRS20;cxExportRS20;dxSkinscxSchedulerPainterRS20;dxSkinMetropolisDarkRS20;fmxase;vcl;DBXMSSQLDriver;IndyIPCommon;QR5RunNBDEDXE5;dxSkinBlueRS20;ACBr_Boleto;dxSkinsdxDLPainterRS20;DataSnapFireDAC;FireDACDBXDriver;ACBr_Sintegra;JvAppFrm;soapserver;dxBarExtDBItemsRS20;dxHttpIndyRequestRS20;dxPSDBTeeChartRS20;inetdbxpress;dxADOServerModeRS20;RtmRxBDE200;dxSkinBlueprintRS20;dxSkinFoggyRS20;dxSkinOffice2010BlackRS20;FireDACInfxDriver;ACBr_LFD;cxPivotGridRS20;dxSkinSharpPlusRS20;frxTee20;fsTee20;JvDocking;adortl;CheckListBanco;frxDB20;JvWizards;dxSkinOffice2016ColorfulRS20;dxRibbonRS20;FireDACASADriver;dxSkinHighContrastRS20;JvHMI;dxSkinTheAsphaltWorldRS20;ACBrOpenSSL;JvBands;fsADO20;dxBarDBNavRS20;ACBrCapicom;ZDbc;dxSkinscxPCPainterRS20;ACBr_BoletoFC_FR;rtl;ACBrSerial;DbxClientDriver;ZPlain;dxNavBarRS20;dxSkinMetropolisRS20;dxDockingRS20;Tee;JclContainers;dxSkinOffice2007BlueRS20;ACBr_CTe;dxSkinsdxRibbonPainterRS20;frxDBX20;dxSkinValentineRS20;JvSystem;DataSnapNativeClient;svnui;JvControls;IndyProtocols;DBXMySQLDriver;dxPScxCommonRS20;dxSkinSevenClassicRS20;frxBDE20;dxSkinPumpkinRS20;bindcompdbx;TeeUI;JvJans;JvPrintPreview;JvPageComps;JvStdCtrls;JvCustom;dxSkinDarkRoomRS20;FireDACADSDriver;vcltouch;ZCore;DBMaskEdit;cxEditorsRS20;dxSkinStardustRS20;dxorgcRS20;dxPSdxDBOCLnkRS20;VclSmp;FireDAC;VCLRESTComponents;dxSkinsCoreRS20;DataSnapConnectors;dxSkinSevenRS20;fsDB20;ACBrNFeDanfeFRpkg;cxLibraryRS20;fmxobj;dxMapControlRS20;JclVcl;ZParseSql;ACBrMDFeDAMDFEFRpkg;fs20;svn;dxWizardControlRS20;dxSkinLilianRS20;FireDACOracleDriver;fmxdae;dxSkinWhiteprintRS20;dxPScxPivotGridLnkRS20;bdertl;dxThemeRS20;dxPSdxOCLnkRS20;ACBrCTeDacteFRpkg;cxTreeListRS20;FireDACMSAccDriver;DataSnapIndy10ServerTransport;dxTileControlRS20;$(DCC_UsePackage)</DCC_UsePackage>
+        <VerInfo_Keys>CompanyName=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductVersion=1.0.0.0;Comments=;ProgramID=com.embarcadero.$(MSBuildProjectName);FileDescription=$(MSBuildProjectName);ProductName=$(MSBuildProjectName)</VerInfo_Keys>
+        <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+        <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
+        <UWP_DelphiLogo44>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_44.png</UWP_DelphiLogo44>
+        <UWP_DelphiLogo150>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_150.png</UWP_DelphiLogo150>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win64)'!=''">
+        <DCC_UsePackage>cxSchedulerTreeBrowserRS20;cxGridRS20;dxFireDACServerModeRS20;dxSkinOffice2007SilverRS20;dxPScxExtCommonRS20;dxPSdxLCLnkRS20;cxPageControlRS20;dxPSdxSpreadSheetLnkRS20;FireDACPgDriver;dxSkinVisualStudio2013DarkRS20;DBXInterBaseDriver;DataSnapServer;DataSnapCommon;dxSkinsdxBarPainterRS20;dxSkinSharpRS20;DbxCommonDriver;dxLayoutControlRS20;vclimg;dxSkinSilverRS20;dxSkinsdxNavBarPainterRS20;dbxcds;DatasnapConnectorsFreePascal;dxPSCoreRS20;dxSkinOffice2013LightGrayRS20;vcldb;dxPSTeeChartRS20;dxSkinOffice2013WhiteRS20;dxSkinMcSkinRS20;CustomIPTransport;dsnap;IndyIPServer;dxSkinCoffeeRS20;IndyCore;dxSkinGlassOceansRS20;dxSkinOffice2010SilverRS20;dxComnRS20;CloudService;dxFlowChartRS20;dxSkinOffice2013DarkGrayRS20;FmxTeeUI;FireDACIBDriver;dxDBXServerModeRS20;cxTreeListdxBarPopupMenuRS20;dxSkinOffice2007PinkRS20;dxPsPrVwAdvRS20;dxSkiniMaginaryRS20;dxSkinSpringTimeRS20;dxSkinDevExpressDarkStyleRS20;dxSkinVisualStudio2013BlueRS20;cxSchedulerGridRS20;dxtrmdRS20;dxPScxGridLnkRS20;dsnapxml;FireDACDb2Driver;dxSpreadSheetRS20;dxSkinMoneyTwinsRS20;dxSkinOffice2007GreenRS20;dxPScxTLLnkRS20;dxRichEditControlRS20;cxPivotGridOLAPRS20;dxPSdxFCLnkRS20;dxPSdxGaugeControlLnkRS20;bindcompfmx;FireDACODBCDriver;RESTBackendComponents;dbrtl;FireDACCommon;bindcomp;inetdb;dxSkinVisualStudio2013LightRS20;DBXOdbcDriver;vclFireDAC;xmlrtl;ibxpress;dxSkinOffice2007BlackRS20;FireDACCommonDriver;bindengine;vclactnband;soaprtl;FMXTee;bindcompvcl;dxGDIPlusRS20;Jcl;vclie;dxPSRichEditControlLnkRS20;cxVerticalGridRS20;dxRibbonCustomizationFormRS20;cxSchedulerRS20;dxSkinBlackRS20;FireDACMSSQLDriver;DBXInformixDriver;dxSkinSummer2008RS20;Intraweb;DataSnapServerMidas;dsnapcon;DBXFirebirdDriver;inet;dxBarRS20;cxDataRS20;dxSkinDarkSideRS20;FireDACMySQLDriver;soapmidas;vclx;dxPScxVGridLnkRS20;dxSkinLondonLiquidSkyRS20;dxCoreRS20;DBXSybaseASADriver;RESTComponents;dxPSPrVwRibbonRS20;dbexpress;dxPSLnksRS20;IndyIPClient;dxBarExtItemsRS20;dxSpellCheckerRS20;dxdbtrRS20;FireDACSqliteDriver;FireDACDSDriver;ZComponent;DBXSqliteDriver;cxSchedulerRibbonStyleEventEditorRS20;fmx;dxSkinVS2010RS20;IndySystem;dxPScxPCProdRS20;TeeDB;tethering;dxSkinXmas2008BlueRS20;vclib;DataSnapClient;dxTabbedMDIRS20;dxmdsRS20;DataSnapProviderClient;DBXSybaseASEDriver;dxdborRS20;dxPSdxDBTVLnkRS20;MetropolisUILiveTile;dxSkinCaramelRS20;dxPScxSchedulerLnkRS20;dxSkinLiquidSkyRS20;dxSkinOffice2016DarkRS20;vcldsnap;dxGaugeControlRS20;dxSkinDevExpressStyleRS20;fmxFireDAC;cxPivotGridChartRS20;DBXDb2Driver;DBXOracleDriver;dxSkinOffice2010BlueRS20;vclribbon;dxServerModeRS20;cxExportRS20;dxSkinscxSchedulerPainterRS20;dxSkinMetropolisDarkRS20;fmxase;vcl;DBXMSSQLDriver;IndyIPCommon;QR5RunNBDEDXE5;dxSkinBlueRS20;dxSkinsdxDLPainterRS20;DataSnapFireDAC;FireDACDBXDriver;soapserver;dxBarExtDBItemsRS20;dxHttpIndyRequestRS20;dxPSDBTeeChartRS20;inetdbxpress;dxADOServerModeRS20;dxSkinBlueprintRS20;dxSkinFoggyRS20;dxSkinOffice2010BlackRS20;FireDACInfxDriver;cxPivotGridRS20;dxSkinSharpPlusRS20;adortl;dxSkinOffice2016ColorfulRS20;dxRibbonRS20;FireDACASADriver;dxSkinHighContrastRS20;dxSkinTheAsphaltWorldRS20;dxBarDBNavRS20;ZDbc;dxSkinscxPCPainterRS20;rtl;DbxClientDriver;ZPlain;dxNavBarRS20;dxSkinMetropolisRS20;dxDockingRS20;Tee;dxSkinOffice2007BlueRS20;dxSkinsdxRibbonPainterRS20;dxSkinValentineRS20;DataSnapNativeClient;IndyProtocols;DBXMySQLDriver;dxPScxCommonRS20;dxSkinSevenClassicRS20;dxSkinPumpkinRS20;bindcompdbx;TeeUI;dxSkinDarkRoomRS20;FireDACADSDriver;vcltouch;ZCore;cxEditorsRS20;dxSkinStardustRS20;dxorgcRS20;dxPSdxDBOCLnkRS20;VclSmp;FireDAC;VCLRESTComponents;dxSkinsCoreRS20;DataSnapConnectors;dxSkinSevenRS20;cxLibraryRS20;fmxobj;dxMapControlRS20;ZParseSql;dxWizardControlRS20;dxSkinLilianRS20;FireDACOracleDriver;fmxdae;dxSkinWhiteprintRS20;dxPScxPivotGridLnkRS20;dxThemeRS20;dxPSdxOCLnkRS20;cxTreeListRS20;FireDACMSAccDriver;DataSnapIndy10ServerTransport;dxTileControlRS20;$(DCC_UsePackage)</DCC_UsePackage>
+        <UWP_DelphiLogo44>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_44.png</UWP_DelphiLogo44>
+        <UWP_DelphiLogo150>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_150.png</UWP_DelphiLogo150>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1)'!=''">
+        <DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+        <DCC_DebugDCUs>true</DCC_DebugDCUs>
+        <DCC_Optimize>false</DCC_Optimize>
+        <DCC_GenerateStackFrames>true</DCC_GenerateStackFrames>
+        <DCC_DebugInfoInExe>true</DCC_DebugInfoInExe>
+        <DCC_RemoteDebug>true</DCC_RemoteDebug>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <DCC_RemoteDebug>false</DCC_RemoteDebug>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2)'!=''">
+        <DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+        <DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+        <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+        <DCC_DebugInformation>0</DCC_DebugInformation>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <BT_BuildType>Debug</BT_BuildType>
+        <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
+    </PropertyGroup>
+    <ItemGroup>
+        <DelphiCompile Include="$(MainSource)">
+            <MainSource>MainSource</MainSource>
+        </DelphiCompile>
+        <DCCReference Include="f_principal.pas">
+            <Form>frm_principal</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="frame_cadastro.pas">
+            <Form>frm_cadastro</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="frame_visitas.pas">
+            <Form>frm_visitas</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="f_visita.pas">
+            <Form>frm_visita</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="f_busca.pas">
+            <Form>frm_busca</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="f_data.pas">
+            <Form>frm_data</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="VFrames.pas"/>
+        <DCCReference Include="VSample.pas"/>
+        <DCCReference Include="DirectX\Direct3D9.pas"/>
+        <DCCReference Include="DirectX\DirectDraw.pas"/>
+        <DCCReference Include="DirectX\DirectShow9.pas"/>
+        <DCCReference Include="DirectX\DirectSound.pas"/>
+        <DCCReference Include="DirectX\DXTypes.pas"/>
+        <DCCReference Include="Frame_Video.pas">
+            <Form>Frame1</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="f_webcam.pas">
+            <Form>frm_webcam</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="uTradutor.pas"/>
+        <BuildConfiguration Include="Release">
+            <Key>Cfg_2</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Base">
+            <Key>Base</Key>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Debug">
+            <Key>Cfg_1</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Delphi.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Delphi.Personality>
+                <Source>
+                    <Source Name="MainSource">CES.dpr</Source>
+                </Source>
+                <Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\bcboffice2k250.bpl">Embarcadero C++Builder Office 2000 Servers Package</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\bcbofficexp250.bpl">Embarcadero C++Builder Office XP Servers Package</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dcloffice2k250.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclofficexp250.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+                </Excluded_Packages>
+            </Delphi.Personality>
+            <Deployment/>
+            <Platforms>
+                <Platform value="Win32">True</Platform>
+                <Platform value="Win64">False</Platform>
+            </Platforms>
+        </BorlandProject>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+    <Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+    <Import Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj" Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')"/>
+    <Import Project="$(MSBuildProjectName).deployproj" Condition="Exists('$(MSBuildProjectName).deployproj')"/>
+</Project>
