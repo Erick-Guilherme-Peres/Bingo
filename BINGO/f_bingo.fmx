@@ -1,0 +1,1552 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderStyle = None
+  Caption = 'Form1'
+  ClientHeight = 710
+  ClientWidth = 1368
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  FullScreen = True
+  OnKeyUp = FormKeyUp
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object Rectangle2: TRectangle
+    Align = Client
+    Fill.Color = xFF9898F4
+    Size.Width = 1368.000000000000000000
+    Size.Height = 660.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Ellipse01: TEllipse
+    Fill.Color = claWhite
+    Position.X = 16.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text3: TText
+      Position.X = 8.000000000000000000
+      Position.Y = 2.000000000000000000
+      Text = '01'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse02: TEllipse
+    Fill.Color = claWhite
+    Position.X = 80.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text4: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 2.000000000000000000
+      Text = '02'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse04: TEllipse
+    Fill.Color = claWhite
+    Position.X = 208.000000000000000000
+    Position.Y = 9.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text6: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '04'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse03: TEllipse
+    Fill.Color = claWhite
+    Position.X = 144.000000000000000000
+    Position.Y = 9.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text5: TText
+      Position.X = 7.000000000000000000
+      Text = '03'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse05: TEllipse
+    Fill.Color = claWhite
+    Position.X = 272.000000000000000000
+    Position.Y = 9.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text7: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '05'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse06: TEllipse
+    Fill.Color = claWhite
+    Position.X = 336.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text8: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '06'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse07: TEllipse
+    Fill.Color = claWhite
+    Position.X = 400.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text9: TText
+      Position.X = 7.000000000000000000
+      Text = '07'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse09: TEllipse
+    Fill.Color = claWhite
+    Position.X = 528.000000000000000000
+    Position.Y = 9.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text11: TText
+      Position.X = 7.000000000000000000
+      Text = '09'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse08: TEllipse
+    Fill.Color = claWhite
+    Position.X = 464.000000000000000000
+    Position.Y = 9.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text10: TText
+      Position.X = 7.000000000000000000
+      Text = '08'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse10: TEllipse
+    Fill.Color = claWhite
+    Position.X = 592.000000000000000000
+    Position.Y = 9.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text12: TText
+      Position.X = 7.000000000000000000
+      Text = '10'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Circle1: TCircle
+    Fill.Color = claWhite
+    Position.X = 824.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 337.000000000000000000
+    Size.Height = 313.000000000000000000
+    Size.PlatformDefault = False
+    object BolaSorteada: TComboEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 0
+      KeyboardType = NumberPad
+      ItemHeight = 19.000000000000000000
+      Items.Strings = (
+        '01'
+        '02'
+        '03'
+        '04'
+        '05'
+        '06'
+        '07'
+        '08'
+        '09'
+        '10'
+        '11'
+        '12'
+        '13'
+        '14'
+        '15'
+        '16'
+        '17'
+        '18'
+        '19'
+        '20'
+        '21'
+        '22'
+        '23'
+        '24'
+        '25'
+        '26'
+        '27'
+        '28'
+        '29'
+        '30'
+        '31'
+        '32'
+        '33'
+        '34'
+        '35'
+        '36'
+        '37'
+        '38'
+        '39'
+        '40'
+        '41'
+        '42'
+        '43'
+        '44'
+        '45'
+        '46'
+        '47'
+        '48'
+        '49'
+        '50'
+        '51'
+        '52'
+        '53'
+        '54'
+        '55'
+        '56'
+        '57'
+        '58'
+        '59'
+        '60'
+        '61'
+        '62'
+        '63'
+        '64'
+        '65'
+        '66'
+        '67'
+        '68'
+        '69'
+        '70'
+        '71'
+        '72'
+        '73'
+        '74'
+        '75'
+        '76'
+        '77'
+        '78'
+        '79'
+        '80'
+        '81'
+        '82'
+        '83'
+        '84'
+        '85'
+        '86'
+        '87'
+        '88'
+        '89'
+        '90')
+      ItemIndex = -1
+      TextSettings.Font.Family = 'Cambria'
+      TextSettings.Font.Size = 72.000000000000000000
+      TextSettings.HorzAlign = Center
+      Position.X = 17.000000000000000000
+      Position.Y = 119.000000000000000000
+      StyledSettings = [Style]
+      Size.Width = 303.000000000000000000
+      Size.Height = 76.000000000000000000
+      Size.PlatformDefault = False
+      OnKeyUp = BolaSorteadaKeyUp
+      OnClick = BolaSorteadaClick
+    end
+  end
+  object Text2: TText
+    Position.X = 696.000000000000000000
+    Position.Y = 344.000000000000000000
+    Size.Width = 569.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Ultimas 3 Bolas Sorteadas'
+    TextSettings.Font.Size = 48.000000000000000000
+  end
+  object Circle2: TCircle
+    Fill.Color = claWhite
+    Position.X = 687.000000000000000000
+    Position.Y = 399.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 180.000000000000000000
+    Size.PlatformDefault = False
+    object Bola1: TText
+      Position.X = 40.000000000000000000
+      Position.Y = 35.000000000000000000
+      Size.Width = 113.000000000000000000
+      Size.Height = 113.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 72.000000000000000000
+    end
+  end
+  object Ellipse11: TEllipse
+    Fill.Color = claWhite
+    Position.X = 16.000000000000000000
+    Position.Y = 73.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text13: TText
+      Position.X = 8.000000000000000000
+      Position.Y = 2.000000000000000000
+      Text = '11'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse12: TEllipse
+    Fill.Color = claWhite
+    Position.X = 80.000000000000000000
+    Position.Y = 73.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text14: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 2.000000000000000000
+      Text = '12'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse13: TEllipse
+    Fill.Color = claWhite
+    Position.X = 144.000000000000000000
+    Position.Y = 74.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text15: TText
+      Position.X = 7.000000000000000000
+      Text = '13'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse14: TEllipse
+    Fill.Color = claWhite
+    Position.X = 208.000000000000000000
+    Position.Y = 74.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text16: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '14'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse15: TEllipse
+    Fill.Color = claWhite
+    Position.X = 272.000000000000000000
+    Position.Y = 74.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text17: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '15'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse16: TEllipse
+    Fill.Color = claWhite
+    Position.X = 336.000000000000000000
+    Position.Y = 73.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text18: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '16'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse17: TEllipse
+    Fill.Color = claWhite
+    Position.X = 400.000000000000000000
+    Position.Y = 73.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text19: TText
+      Position.X = 7.000000000000000000
+      Text = '17'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse18: TEllipse
+    Fill.Color = claWhite
+    Position.X = 464.000000000000000000
+    Position.Y = 74.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text20: TText
+      Position.X = 7.000000000000000000
+      Text = '18'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse19: TEllipse
+    Fill.Color = claWhite
+    Position.X = 528.000000000000000000
+    Position.Y = 74.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text21: TText
+      Position.X = 7.000000000000000000
+      Text = '19'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse20: TEllipse
+    Fill.Color = claWhite
+    Position.X = 593.000000000000000000
+    Position.Y = 74.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text22: TText
+      Position.X = 7.000000000000000000
+      Text = '20'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse21: TEllipse
+    Fill.Color = claWhite
+    Position.X = 16.000000000000000000
+    Position.Y = 138.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text23: TText
+      Position.X = 8.000000000000000000
+      Position.Y = 2.000000000000000000
+      Text = '21'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse22: TEllipse
+    Fill.Color = claWhite
+    Position.X = 80.000000000000000000
+    Position.Y = 138.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text24: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 2.000000000000000000
+      Text = '22'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse23: TEllipse
+    Fill.Color = claWhite
+    Position.X = 144.000000000000000000
+    Position.Y = 139.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text25: TText
+      Position.X = 7.000000000000000000
+      Text = '23'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse24: TEllipse
+    Fill.Color = claWhite
+    Position.X = 208.000000000000000000
+    Position.Y = 139.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text26: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '24'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse25: TEllipse
+    Fill.Color = claWhite
+    Position.X = 272.000000000000000000
+    Position.Y = 139.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text27: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '25'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse26: TEllipse
+    Fill.Color = claWhite
+    Position.X = 336.000000000000000000
+    Position.Y = 138.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text28: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '26'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse27: TEllipse
+    Fill.Color = claWhite
+    Position.X = 400.000000000000000000
+    Position.Y = 138.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text29: TText
+      Position.X = 7.000000000000000000
+      Text = '27'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse28: TEllipse
+    Fill.Color = claWhite
+    Position.X = 464.000000000000000000
+    Position.Y = 139.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text30: TText
+      Position.X = 7.000000000000000000
+      Text = '28'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse29: TEllipse
+    Fill.Color = claWhite
+    Position.X = 528.000000000000000000
+    Position.Y = 139.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text31: TText
+      Position.X = 7.000000000000000000
+      Text = '29'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse30: TEllipse
+    Fill.Color = claWhite
+    Position.X = 593.000000000000000000
+    Position.Y = 139.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text32: TText
+      Position.X = 7.000000000000000000
+      Text = '30'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse31: TEllipse
+    Fill.Color = claWhite
+    Position.X = 16.000000000000000000
+    Position.Y = 203.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text33: TText
+      Position.X = 8.000000000000000000
+      Position.Y = 2.000000000000000000
+      Text = '31'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse32: TEllipse
+    Fill.Color = claWhite
+    Position.X = 80.000000000000000000
+    Position.Y = 203.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text34: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 2.000000000000000000
+      Text = '32'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse33: TEllipse
+    Fill.Color = claWhite
+    Position.X = 144.000000000000000000
+    Position.Y = 204.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text35: TText
+      Position.X = 7.000000000000000000
+      Text = '33'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse34: TEllipse
+    Fill.Color = claWhite
+    Position.X = 208.000000000000000000
+    Position.Y = 204.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text36: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '34'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse35: TEllipse
+    Fill.Color = claWhite
+    Position.X = 272.000000000000000000
+    Position.Y = 204.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text37: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '35'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse36: TEllipse
+    Fill.Color = claWhite
+    Position.X = 336.000000000000000000
+    Position.Y = 203.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text38: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '36'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse37: TEllipse
+    Fill.Color = claWhite
+    Position.X = 400.000000000000000000
+    Position.Y = 203.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text39: TText
+      Position.X = 7.000000000000000000
+      Text = '37'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse38: TEllipse
+    Fill.Color = claWhite
+    Position.X = 464.000000000000000000
+    Position.Y = 204.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text40: TText
+      Position.X = 7.000000000000000000
+      Text = '38'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse39: TEllipse
+    Fill.Color = claWhite
+    Position.X = 528.000000000000000000
+    Position.Y = 204.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text41: TText
+      Position.X = 7.000000000000000000
+      Text = '39'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse40: TEllipse
+    Fill.Color = claWhite
+    Position.X = 593.000000000000000000
+    Position.Y = 204.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text42: TText
+      Position.X = 7.000000000000000000
+      Text = '40'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse41: TEllipse
+    Fill.Color = claWhite
+    Position.X = 16.000000000000000000
+    Position.Y = 268.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text43: TText
+      Position.X = 8.000000000000000000
+      Position.Y = 2.000000000000000000
+      Text = '41'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse42: TEllipse
+    Fill.Color = claWhite
+    Position.X = 80.000000000000000000
+    Position.Y = 268.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text44: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 2.000000000000000000
+      Text = '42'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse43: TEllipse
+    Fill.Color = claWhite
+    Position.X = 144.000000000000000000
+    Position.Y = 269.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text45: TText
+      Position.X = 7.000000000000000000
+      Text = '43'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse44: TEllipse
+    Fill.Color = claWhite
+    Position.X = 208.000000000000000000
+    Position.Y = 269.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text46: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '44'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse45: TEllipse
+    Fill.Color = claWhite
+    Position.X = 272.000000000000000000
+    Position.Y = 269.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text47: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '45'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse46: TEllipse
+    Fill.Color = claWhite
+    Position.X = 336.000000000000000000
+    Position.Y = 268.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text48: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '46'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse47: TEllipse
+    Fill.Color = claWhite
+    Position.X = 400.000000000000000000
+    Position.Y = 268.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text49: TText
+      Position.X = 7.000000000000000000
+      Text = '47'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse48: TEllipse
+    Fill.Color = claWhite
+    Position.X = 464.000000000000000000
+    Position.Y = 269.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text50: TText
+      Position.X = 7.000000000000000000
+      Text = '48'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse49: TEllipse
+    Fill.Color = claWhite
+    Position.X = 528.000000000000000000
+    Position.Y = 269.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text51: TText
+      Position.X = 7.000000000000000000
+      Text = '49'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse50: TEllipse
+    Fill.Color = claWhite
+    Position.X = 593.000000000000000000
+    Position.Y = 269.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text52: TText
+      Position.X = 7.000000000000000000
+      Text = '50'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse51: TEllipse
+    Fill.Color = claWhite
+    Position.X = 16.000000000000000000
+    Position.Y = 333.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text53: TText
+      Position.X = 8.000000000000000000
+      Position.Y = 2.000000000000000000
+      Text = '51'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse52: TEllipse
+    Fill.Color = claWhite
+    Position.X = 80.000000000000000000
+    Position.Y = 333.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text54: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 2.000000000000000000
+      Text = '52'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse53: TEllipse
+    Fill.Color = claWhite
+    Position.X = 144.000000000000000000
+    Position.Y = 334.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text55: TText
+      Position.X = 7.000000000000000000
+      Text = '53'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse54: TEllipse
+    Fill.Color = claWhite
+    Position.X = 208.000000000000000000
+    Position.Y = 334.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text56: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '54'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse55: TEllipse
+    Fill.Color = claWhite
+    Position.X = 272.000000000000000000
+    Position.Y = 334.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text57: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '55'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse56: TEllipse
+    Fill.Color = claWhite
+    Position.X = 336.000000000000000000
+    Position.Y = 333.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text58: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '56'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse57: TEllipse
+    Fill.Color = claWhite
+    Position.X = 400.000000000000000000
+    Position.Y = 333.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text59: TText
+      Position.X = 7.000000000000000000
+      Text = '57'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse58: TEllipse
+    Fill.Color = claWhite
+    Position.X = 464.000000000000000000
+    Position.Y = 334.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text60: TText
+      Position.X = 7.000000000000000000
+      Text = '58'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse59: TEllipse
+    Fill.Color = claWhite
+    Position.X = 528.000000000000000000
+    Position.Y = 334.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text61: TText
+      Position.X = 7.000000000000000000
+      Text = '59'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse60: TEllipse
+    Fill.Color = claWhite
+    Position.X = 593.000000000000000000
+    Position.Y = 334.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text62: TText
+      Position.X = 7.000000000000000000
+      Text = '60'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse61: TEllipse
+    Fill.Color = claWhite
+    Position.X = 16.000000000000000000
+    Position.Y = 398.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text63: TText
+      Position.X = 8.000000000000000000
+      Position.Y = 2.000000000000000000
+      Text = '61'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse62: TEllipse
+    Fill.Color = claWhite
+    Position.X = 80.000000000000000000
+    Position.Y = 398.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text64: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 2.000000000000000000
+      Text = '62'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse63: TEllipse
+    Fill.Color = claWhite
+    Position.X = 144.000000000000000000
+    Position.Y = 399.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text65: TText
+      Position.X = 7.000000000000000000
+      Text = '63'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse64: TEllipse
+    Fill.Color = claWhite
+    Position.X = 208.000000000000000000
+    Position.Y = 399.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text66: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '64'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse65: TEllipse
+    Fill.Color = claWhite
+    Position.X = 272.000000000000000000
+    Position.Y = 399.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text67: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '65'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse66: TEllipse
+    Fill.Color = claWhite
+    Position.X = 336.000000000000000000
+    Position.Y = 398.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text68: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '66'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse67: TEllipse
+    Fill.Color = claWhite
+    Position.X = 400.000000000000000000
+    Position.Y = 398.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text69: TText
+      Position.X = 7.000000000000000000
+      Text = '67'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse68: TEllipse
+    Fill.Color = claWhite
+    Position.X = 464.000000000000000000
+    Position.Y = 399.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text70: TText
+      Position.X = 7.000000000000000000
+      Text = '68'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse69: TEllipse
+    Fill.Color = claWhite
+    Position.X = 528.000000000000000000
+    Position.Y = 399.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text71: TText
+      Position.X = 7.000000000000000000
+      Text = '69'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse70: TEllipse
+    Fill.Color = claWhite
+    Position.X = 593.000000000000000000
+    Position.Y = 399.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text72: TText
+      Position.X = 7.000000000000000000
+      Text = '70'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse71: TEllipse
+    Fill.Color = claWhite
+    Position.X = 16.000000000000000000
+    Position.Y = 463.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text73: TText
+      Position.X = 8.000000000000000000
+      Position.Y = 2.000000000000000000
+      Text = '71'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse72: TEllipse
+    Fill.Color = claWhite
+    Position.X = 80.000000000000000000
+    Position.Y = 463.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text74: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 2.000000000000000000
+      Text = '72'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse73: TEllipse
+    Fill.Color = claWhite
+    Position.X = 144.000000000000000000
+    Position.Y = 464.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text75: TText
+      Position.X = 7.000000000000000000
+      Text = '73'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse74: TEllipse
+    Fill.Color = claWhite
+    Position.X = 208.000000000000000000
+    Position.Y = 464.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text76: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '74'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse75: TEllipse
+    Fill.Color = claWhite
+    Position.X = 272.000000000000000000
+    Position.Y = 464.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text77: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '75'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse76: TEllipse
+    Fill.Color = claWhite
+    Position.X = 336.000000000000000000
+    Position.Y = 463.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text78: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '76'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse77: TEllipse
+    Fill.Color = claWhite
+    Position.X = 400.000000000000000000
+    Position.Y = 463.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text79: TText
+      Position.X = 7.000000000000000000
+      Text = '77'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse78: TEllipse
+    Fill.Color = claWhite
+    Position.X = 464.000000000000000000
+    Position.Y = 464.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text80: TText
+      Position.X = 7.000000000000000000
+      Text = '78'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse79: TEllipse
+    Fill.Color = claWhite
+    Position.X = 528.000000000000000000
+    Position.Y = 464.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text81: TText
+      Position.X = 7.000000000000000000
+      Text = '79'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse80: TEllipse
+    Fill.Color = claWhite
+    Position.X = 593.000000000000000000
+    Position.Y = 464.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text82: TText
+      Position.X = 7.000000000000000000
+      Text = '80'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse81: TEllipse
+    Fill.Color = claWhite
+    Position.X = 16.000000000000000000
+    Position.Y = 528.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text83: TText
+      Position.X = 8.000000000000000000
+      Position.Y = 2.000000000000000000
+      Text = '81'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse82: TEllipse
+    Fill.Color = claWhite
+    Position.X = 80.000000000000000000
+    Position.Y = 528.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text84: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 2.000000000000000000
+      Text = '82'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse83: TEllipse
+    Fill.Color = claWhite
+    Position.X = 144.000000000000000000
+    Position.Y = 529.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text85: TText
+      Position.X = 7.000000000000000000
+      Text = '83'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse84: TEllipse
+    Fill.Color = claWhite
+    Position.X = 208.000000000000000000
+    Position.Y = 529.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text86: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '84'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse85: TEllipse
+    Fill.Color = claWhite
+    Position.X = 272.000000000000000000
+    Position.Y = 529.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text87: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '85'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse86: TEllipse
+    Fill.Color = claWhite
+    Position.X = 336.000000000000000000
+    Position.Y = 528.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text88: TText
+      Position.X = 7.000000000000000000
+      Position.Y = 1.000000000000000000
+      Text = '86'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse87: TEllipse
+    Fill.Color = claWhite
+    Position.X = 400.000000000000000000
+    Position.Y = 528.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text89: TText
+      Position.X = 7.000000000000000000
+      Text = '87'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse88: TEllipse
+    Fill.Color = claWhite
+    Position.X = 464.000000000000000000
+    Position.Y = 529.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text90: TText
+      Position.X = 7.000000000000000000
+      Text = '88'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse89: TEllipse
+    Fill.Color = claWhite
+    Position.X = 528.000000000000000000
+    Position.Y = 529.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text91: TText
+      Position.X = 7.000000000000000000
+      Text = '89'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Ellipse90: TEllipse
+    Fill.Color = claWhite
+    Position.X = 593.000000000000000000
+    Position.Y = 529.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text92: TText
+      Position.X = 7.000000000000000000
+      Text = '90'
+      TextSettings.Font.Size = 28.000000000000000000
+    end
+  end
+  object Circle4: TCircle
+    Fill.Color = claWhite
+    Position.X = 892.000000000000000000
+    Position.Y = 407.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 180.000000000000000000
+    Size.PlatformDefault = False
+    object Bola2: TText
+      Position.X = 40.000000000000000000
+      Position.Y = 35.000000000000000000
+      Size.Width = 113.000000000000000000
+      Size.Height = 113.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 72.000000000000000000
+    end
+  end
+  object Circle3: TCircle
+    Fill.Color = claWhite
+    Position.X = 1092.000000000000000000
+    Position.Y = 407.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 180.000000000000000000
+    Size.PlatformDefault = False
+    object Bola3: TText
+      Position.X = 40.000000000000000000
+      Position.Y = 35.000000000000000000
+      Size.Width = 113.000000000000000000
+      Size.Height = 113.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 72.000000000000000000
+    end
+  end
+  object Pie1: TPie
+    Fill.Color = claMediumseagreen
+    Position.X = 24.000000000000000000
+    Position.Y = 624.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claMediumseagreen
+    Stroke.Dash = Dash
+    EndAngle = 360.000000000000000000
+  end
+  object Pie2: TPie
+    Fill.Color = claMediumseagreen
+    Position.X = 792.000000000000000000
+    Position.Y = 174.000000000000000000
+    RotationAngle = 180.000000000000000000
+    RotationCenter.X = 5.000000000000000000
+    RotationCenter.Y = 5.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claMediumseagreen
+    EndAngle = 360.000000000000000000
+  end
+  object Text93: TText
+    Align = Bottom
+    Position.Y = 660.000000000000000000
+    Size.Width = 1368.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'SHOW DE PREMIOS'
+    TextSettings.Font.Size = 40.000000000000000000
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      StyleLookup = 'transparentedit'
+      TabOrder = 0
+      CanParentFocus = True
+      Text = 'Rodada Principal'
+      TextSettings.Font.Family = 'Cambria'
+      TextSettings.Font.Size = 60.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Position.X = 96.000000000000000000
+      Position.Y = -118.000000000000000000
+      Size.Width = 1121.000000000000000000
+      Size.Height = 85.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family]
+    end
+  end
+end

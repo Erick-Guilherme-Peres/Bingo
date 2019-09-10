@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/07/12 02:54:34.000.355,=C:\Users\Erick\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/07/12 13:59:12.000.090,=C:\Users\Erick\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/11/20 11:04:59.000.074,=C:\Users\Erick\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/04/23 14:54:04.000.806,=C:\Users\Erick\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/11/19 16:46:14.000.772,=C:\Users\Erick\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/11/19 16:48:58.000.911,=C:\Users\Erick\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/11/19 16:58:21.000.710,=C:\Users\Erick\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/11/19 17:30:42.000.616,=C:\Users\Erick\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/11/19 17:46:59.000.130,=C:\Users\Erick\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/11/20 09:39:22.000.518,=C:\Users\Erick\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/12/08 16:24:38.000.877,=C:\Users\Erick\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/07/26 13:46:13.000.541,=C:\Users\Erick\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/15 10:22:49.000.207,=C:\Users\Erick\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/15 13:20:06.000.181,C:\Users\Erick\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Erick\Desktop\BINGO\f_bingo.pas</Transaction>
+    <Transaction>2017/10/15 13:20:06.000.181,C:\Users\Erick\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\Erick\Desktop\BINGO\f_bingo.fmx</Transaction>
+    <Transaction>2017/10/15 13:20:10.000.335,C:\Users\Erick\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Erick\Desktop\BINGO\Bingo.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
